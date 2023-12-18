@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AppTracking</string>
+    <string name="app_name">App Tracking</string>
+    <string name="welcome">Welcome</string>
 </resources>
