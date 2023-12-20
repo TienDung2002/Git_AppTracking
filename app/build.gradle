@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-    id 'androidx.navigation.safeargs'
+    id 'androidx.navigation.safeargs.kotlin'
     id 'com.google.gms.google-services'
 }
 
@@ -32,11 +32,14 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+        freeCompilerArgs += ["-Xopt-in=kotlin.RequiresOptIn"]
     }
     buildFeatures {
-        dataBinding = true
         viewBinding = true
     }
+}
+kapt {
+    correctErrorTypes true
 }
 
 dependencies {
@@ -49,6 +52,10 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation("com.google.firebase:firebase-analytics")
 
 
     def daggerVersion = "2.48.1"
@@ -56,6 +63,7 @@ dependencies {
     def lifecycleVersion = "2.6.2"
     def glideVersion = "4.16.0"
     def coroutinesVersion = "1.7.1"
+    def nav_version = "2.7.6"
 
     // Retrofit2 & okhttp3
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
@@ -79,8 +87,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
 
     // Navigation
-    implementation "androidx.navigation:navigation-fragment-ktx:2.7.6"
-    implementation "androidx.navigation:navigation-ui-ktx:2.7.6"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
     // store local user data
     implementation "androidx.datastore:datastore-preferences:1.0.0"
@@ -109,7 +117,7 @@ dependencies {
     implementation "com.tbuonomo:dotsindicator:4.2"
 
     // get public ip address
-    implementation "com.github.chintan369:Ipify-Android:1.0.1"
+//    implementation "com.github.chintan369:Ipify-Android:1.0.1"
 
     // Timber log
     implementation 'com.jakewharton.timber:timber:4.7.1'

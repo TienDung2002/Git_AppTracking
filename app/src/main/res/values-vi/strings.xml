@@ -3,7 +3,7 @@
     <string name="app_name">App Tracking</string>
 
 <!--Login frag-->
-    <string name="welcome">Chào mừng tới Tracking </string>
+    <string name="welcome">Tracking App</string>
     <string name="hintUsername">Tên đăng nhập</string>
     <string name="hintPassword">Mật khẩu</string>
     <string name="login">Đăng nhập</string>

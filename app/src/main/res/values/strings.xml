@@ -2,7 +2,7 @@
     <string name="app_name">App Tracking</string>
 
 <!--    Login-->
-    <string name="welcome">Welcome to Tracking</string>
+    <string name="welcome">Tracking App</string>
     <string name="hintUsername">Username</string>
     <string name="hintPassword">Password</string>
     <string name="login">Login</string>
