@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">App Tracking</string>
-    <string name="welcome">Chào mừng</string>
+
+<!--Login frag-->
+    <string name="welcome">Chào mừng tới Tracking </string>
+    <string name="hintUsername">Tên đăng nhập</string>
+    <string name="hintPassword">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="signup">Đăng ký</string>
+    <string name="create_acc">Chưa có tài khoản?</string>
+    <string name="forgot_pass">Quên mật khẩu?</string>
+    <string name="forgot_pass_link">Đặt lại mật khẩu</string>
+
+
 </resources>

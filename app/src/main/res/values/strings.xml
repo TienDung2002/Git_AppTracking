@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">App Tracking</string>
-    <string name="welcome">Welcome</string>
+
+<!--    Login-->
+    <string name="welcome">Welcome to Tracking</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="create_acc">Don\'t have an account?</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="forgot_pass_link">Reset here</string>
+
+
+
+
+
 </resources>
