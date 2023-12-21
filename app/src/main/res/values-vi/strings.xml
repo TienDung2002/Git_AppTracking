@@ -2,15 +2,29 @@
 <resources>
     <string name="app_name">App Tracking</string>
 
-<!--Login frag-->
+    <!--Login frag-->
     <string name="welcome">Tracking App</string>
     <string name="hintUsername">Tên đăng nhập</string>
     <string name="hintPassword">Mật khẩu</string>
     <string name="login">Đăng nhập</string>
-    <string name="signup">Đăng ký</string>
     <string name="create_acc">Chưa có tài khoản?</string>
     <string name="forgot_pass">Quên mật khẩu?</string>
     <string name="forgot_pass_link">Đặt lại mật khẩu</string>
+
+    <!-- Signup -->
+    <string name="signup">Đăng ký</string>
+    <string name="signup_title">Đăng ký tài khoản</string>
+    <string name="signup_firstName">Tên</string>
+    <string name="signup_lastName">Họ</string>
+    <string name="signup_gender">Giới tính</string>
+    <string name="signup_male">Nam</string>
+    <string name="signup_female">Nữ</string>
+    <string name="signup_birth">Ngày sinh</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_Uname">Tên trường đại học</string>
+    <string name="signup_year">Năm</string>
+    <string name="hint_rePassword">Re-enter password</string>
+    <string name="return_login">Đã có tài khoản?</string>
 
 
 </resources>

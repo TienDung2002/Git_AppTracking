@@ -33,7 +33,7 @@
             android:textStyle="italic" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/emailTextInputLayout"
+            android:id="@+id/userTextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -43,7 +43,7 @@
             app:boxStrokeErrorColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/ET_email_login"
+                android:id="@+id/ET_user_login"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/transparent_background"

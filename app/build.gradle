@@ -65,7 +65,10 @@ dependencies {
     def coroutinesVersion = "1.7.1"
     def nav_version = "2.7.6"
 
-    // Retrofit2 & okhttp3
+    // Material Components
+    implementation 'com.google.android.material:material:1.11.0'
+
+    // Retrofit2
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"

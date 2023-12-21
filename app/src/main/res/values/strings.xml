@@ -1,17 +1,29 @@
 <resources>
     <string name="app_name">App Tracking</string>
 
-<!--    Login-->
+    <!--    Login-->
     <string name="welcome">Tracking App</string>
     <string name="hintUsername">Username</string>
     <string name="hintPassword">Password</string>
     <string name="login">Login</string>
-    <string name="signup">Sign up</string>
     <string name="create_acc">Don\'t have an account?</string>
     <string name="forgot_pass">Forgot password?</string>
     <string name="forgot_pass_link">Reset here</string>
 
-
+    <!-- Signup -->
+    <string name="signup">Sign up</string>
+    <string name="signup_title">Create an account</string>
+    <string name="signup_firstName">First name</string>
+    <string name="signup_lastName">Last name</string>
+    <string name="signup_gender">Gender</string>
+    <string name="signup_male">Male</string>
+    <string name="signup_female">Female</string>
+    <string name="signup_birth">Date of birth</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_Uname">Name of university</string>
+    <string name="signup_year">Year</string>
+    <string name="hint_rePassword">Re-enter password</string>
+    <string name="return_login">Already have an account?</string>
 
 
 
